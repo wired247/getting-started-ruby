@@ -1,7 +1,7 @@
 getting-started-ruby
 ====================
 
-A sample application in Ruby for wercker
+Ruby sample application for wercker leverarging the Sinatra microframework
 
 [![Wercker
 status](https://app.wercker.com/status/422a322f89cfe857ec937a900f554753/m)](https://app.wercker.com/project/bykey/422a322f89cfe857ec937a900f554753)
