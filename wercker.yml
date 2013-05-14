@@ -9,5 +9,5 @@ deploy:
     steps:
         - heroku-deploy:
             heroku-key: $HEROKU_KEY
-            heroku-user: pjvds
+            heroku-user: $HEROKU_USER
             heroku-app-name: $HEROKU_APP_NAME
