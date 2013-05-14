@@ -7,9 +7,6 @@ build:
             code: bundle exec rspec
 deploy:
     steps:
-        - script:
-            name: list all variables
-            code: export -p
         - heroku-deploy:
             heroku-key: $HEROKU_KEY
             heroku-user: pjvds
