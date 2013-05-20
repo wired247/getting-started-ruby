@@ -6,3 +6,8 @@ get '/cities.json' do
         return {:cities=> ["Amsterdam", "San Francisco", "Berlin",
                            "New York", "Tokyo", "London"]}.to_json
 end
+
+get '/' do
+  content_type :json
+  return [{:name => "Amsterdam"}].to_json
+end
