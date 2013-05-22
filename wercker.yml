@@ -1,0 +1,10 @@
+box: wercker/ruby
+build:
+    steps:
+        - bundle-install
+        - script:
+            name: rspec
+            code: bundle exec rspec
+deploy:
+    steps:
+        - heroku-deploy
