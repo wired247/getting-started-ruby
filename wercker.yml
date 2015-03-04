@@ -1,4 +1,4 @@
-box: phusion/passenger-full
+box: phusion/passenger-ruby22
 build:
     steps:
         - bundle-install
