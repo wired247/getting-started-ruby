@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 gem 'sinatra'
 gem 'unicorn'
-gem 'json_pure'
+gem 'json'
 gem 'rake'
 gem 'rack-test'
 
