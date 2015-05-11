@@ -1,4 +1,11 @@
 box: phusion/passenger-ruby22
+dev:
+  steps:
+    - bundle-install
+    - internal/watch:
+        code: |
+          bundle exec thin -R config.ru -p 8080 start
+        reload: true
 build:
     steps:
         - bundle-install

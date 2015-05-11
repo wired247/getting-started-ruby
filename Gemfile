@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 gem 'sinatra'
-gem 'unicorn'
+gem 'thin'
 gem 'json'
 gem 'rake'
 gem 'rack-test'
