@@ -1,0 +1,29 @@
+#----------------------------------------------------------------------------
+# Ignore these files when commiting to a git repository.
+#----------------------------------------------------------------------------
+
+# bundler state
+/.bundle
+/vendor/bundle/
+/vendor/ruby/
+
+# Docker files
+/_builds/*
+/_cache/*
+/_steps/*
+
+# minimal Rails specific artifacts
+/log/*
+/tmp/*
+
+# Mac finder artifacts
+.DS_Store
+
+# Eclipse project
+.project
+
+# Ignore application configuration
+/config/application.yml
+/config/database.yml
+/config/secrets.yml
+
