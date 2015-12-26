@@ -10,5 +10,4 @@ This application uses the default [Ruby container](https://registry.hub.docker.c
 Note: this sample application only runs on the Ewok stack on wercker
 
 ---
-Sign up for wercker [here](http://wercker.com)
-Learn more on our [dev center](http://devcenter.wercker.com)
+[![wercker status](https://app.wercker.com/status/a41207434e3fd96519889137eef9d5ff/m "wercker status")](https://app.wercker.com/project/bykey/a41207434e3fd96519889137eef9d5ff)

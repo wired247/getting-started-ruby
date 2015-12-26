@@ -11,6 +11,7 @@
 /_builds/*
 /_cache/*
 /_steps/*
+/_projects/*
 
 # minimal Rails specific artifacts
 /log/*
